@@ -1,0 +1,23 @@
+.page-wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-inner {
+  padding: 28px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    margin-left: 0;
+  }
+}

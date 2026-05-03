@@ -1,0 +1,23 @@
+.badge {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.badge--todo {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+
+.badge--in_progress {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.badge--done {
+  background: var(--success-light);
+  color: var(--success);
+}
